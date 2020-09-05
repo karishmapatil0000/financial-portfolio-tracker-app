@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component } from './node_modules/react';
 import '../Addstocks.css';
 import AddForm from '../Form/AddForm/AddForm';
 
@@ -60,7 +60,7 @@ class Addstocks extends Component {
         
         return (
                 
-                <div className="AddStocksTitle" >
+                <div className="AddstocksTitle" >
                 <h2>Add stocks to My stocks</h2>
                 {(this.state.myCompanies.length>0)?(this.state.myCompanies.length>3)?
                 <ul id="companyList">

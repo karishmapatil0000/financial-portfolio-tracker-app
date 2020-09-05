@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import axios from 'axios';
 import Header from '../Components/Header/Header';
 import Mystocks from '../Components/Mystocks/Mystocks';
-import Addstocks from '../Components/AddStocks/Addstocks';
+import Addstocks from '../Components/Addstocks/Addstocks';
 
  class Main extends Component {
      constructor(props) {
