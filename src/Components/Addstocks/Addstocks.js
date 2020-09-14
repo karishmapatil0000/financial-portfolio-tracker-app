@@ -1,5 +1,5 @@
-import React, { Component } from './node_modules/react';
-import '../Addstocks.css';
+import React, { Component } from 'react';
+import './Addstocks.css';
 import AddForm from '../Form/AddForm/AddForm';
 
 class Addstocks extends Component {

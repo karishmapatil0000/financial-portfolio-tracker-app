@@ -27,6 +27,18 @@ class AddFormModal extends Component {
                 numberOutput.innerHTML="";
                 n.style.backgroundColor="white";
             }
+            // else if(n.value<=0){
+            //     numberOutput.innerHTML="Please enter a valid number:";
+            //     n.style.backgroundColor="red";
+            // }
+            // else if(n.value>=99999){
+            //     numberOutput.innerHTML=`More than 1Lakh shares not allowed`;
+            //     n.style.backgroundColor="orange";
+            // }
+            // else{                
+            //     numberOutput.innerHTML=`You are buying ${n.value} shares`;
+            //     n.style.backgroundColor="green";
+            // }
         }
         checkPrice(){
             let priceOutput=document.getElementById("price");                      
@@ -35,6 +47,16 @@ class AddFormModal extends Component {
                 priceOutput.innerHTML="";
                 p.style.backgroundColor="white";
             }
+            // else if(p.value<=0){
+            //     priceOutput.innerHTML="Please enter a valid number";
+            //     p.style.backgroundColor="red";
+            // }
+            // else{
+            //     let temp=document.myForm.shares.value;
+            //     let totalCost=p.value*temp;
+            //     priceOutput.innerHTML=`Your total buying cost:${totalCost}`;
+            //     p.style.backgroundColor="green";
+            // }
          } 
         checkDate(){
             let dateOutput=document.getElementById("date");                      
@@ -43,6 +65,10 @@ class AddFormModal extends Component {
                 dateOutput.innerHTML="";
                 d.style.backgroundColor="white";
             }
+            // else{
+            //     dateOutput.innerHTML=`${d.value}`;
+            //     d.style.backgroundColor="green";
+            //  }
          }
                
         
