@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './Addstocks.css';
-import AddForm from '../Form/AddForm/AddForm';
+import AddForm from '../Form/AddForm/AddForm'
 
 class Addstocks extends Component {
     constructor(props) {
@@ -60,7 +60,7 @@ class Addstocks extends Component {
         
         return (
                 
-                <div className="AddstocksTitle" >
+                <div className="AddStocksTitle" >
                 <h2>Add stocks to My stocks</h2>
                 {(this.state.myCompanies.length>0)?(this.state.myCompanies.length>3)?
                 <ul id="companyList">
@@ -86,4 +86,4 @@ class Addstocks extends Component {
     }
 }
 
-export default Addstocks;
+export default Addstocks
