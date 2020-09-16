@@ -143,7 +143,7 @@ import Addstocks from '../Components/AddStocks/Addstocks';
                     if(noofshares>0&&buyPrice.length>0&&buyDate.length>0)
                     {
                             //Adding stocks to my stocks
-                            axios.post('https://finportfolio-6ac43.firebaseio.com/mystocks/.json.firebaseio.com/mystocks.json', {
+                            axios.post('https://finance-portfolio-tracke-11608.firebaseio.com/mystocks.json', {
                                 Company_Symbol:company_symbol,
                                 Company_name:company_name,
                                 No_of_Shares:noofshares,
